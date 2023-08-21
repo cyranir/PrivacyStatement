@@ -1,0 +1,45 @@
+/* style.css */
+
+@font-face {
+    font-family: "Candara";
+    src: url("Font/CANDARA.TTF");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Candara";
+    src: url("Font/CANDARAB.TTF");
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Candara", sans-serif;
+    background-color: rgb(204, 229, 255); /* pastel blue */
+    padding: 20px;
+    color: #333; /* Dark gray text for contrast */
+    line-height: 1.6;
+    font-size: 30;
+}
+
+h1, h2 {
+    color: #111; /* Even darker gray for headers */
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+ul, p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #001666; /* Choose a shade of blue for links */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0055aa; /* Darken the link color when hovered */
+}
+
