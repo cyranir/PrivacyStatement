@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2 {
-    color: #111; /* Even darker gray for headers */
+    color: #333; /* Lighter gray for headers */
     margin-top: 24px;
     margin-bottom: 16px;
 }
@@ -34,12 +34,12 @@ ul, p {
 }
 
 a {
-    color: #001666; /* Choose a shade of blue for links */
+    color: #3298ff; /* Choose a shade of pink for links */
     text-decoration: none;
     transition: color 0.2s;
 }
 
 a:hover {
-    color: #0055aa; /* Darken the link color when hovered */
+    color: #001666;      /* Darken the link color when hovered */
 }
 
